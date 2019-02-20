@@ -1,0 +1,431 @@
+body{
+    background-color: #eee;
+    padding: 0px;
+    margin: 0px;
+}
+.main-image{
+    background-image: url("img/head4.jpg");
+    background-repeat: no-repeat;
+}
+.heading-main{
+    padding: 20px 10%;
+    background: url("img/head1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+.nav1{
+}
+.brand-logo ,.brand-logo img, .brand-name ,.brand-name h1{
+    display: inline;
+}
+.brand-name {
+    margin-top: 0px;
+    font-size: 2.5em;
+    font-weight: 1000;
+    vertical-align: bottom; 
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(31, 82, 121);
+}
+.brand-logo{
+    margin-top: 0px;
+    width: 50px;
+    height: auto;
+}
+.navs ul{
+    margin-top: 20px;
+}
+.navs li, .navs{
+    display: inline;
+}
+.navs{
+   float: right;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+.navs li{
+    margin: 20px 10px;
+}
+.button{
+    padding: 10px;
+    margin-left: 10px;
+    background: rgb(31, 82, 121);;
+    color: white;
+    border:0px;
+    font-weight: bold;
+}
+.navs li a{
+    font-size: 1.1em;
+}
+.navs a {
+    color: rgb(31, 82, 121);
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.23em;
+    letter-spacing: 1px;
+}
+.navs li :hover{
+    border: 1px solid rgb(31, 82, 121);
+    background: white;
+    color: rgb(31, 82, 121);
+    padding: 10px;
+    border-radius: 50px;
+}
+.slider{
+    padding: 0px;
+    margin: 0px;
+}
+.slider img{
+    width: 100%;
+    height: auto;
+}
+.slider-heading{
+    width: 40%;
+    margin: 15% 0px 0px 13%;
+}
+.slider-heading h1{
+    font-weight: 1000;
+    font-size: 5em;
+    padding: 0px;
+    margin: 0px;
+}
+.slider-heading h3{
+    font-weight: 1000;
+    font-size: 2.45em;
+    letter-spacing: 10px;
+}
+.slider-heading p{
+    margin: 20px 0px;
+    color: rgb(70, 79, 87);
+}
+.slider-heading button{
+    margin-left:0px; 
+    padding: 10px 25px;
+}
+.slider-heading h3 span{
+    color: rgb(31, 82, 121);
+}
+.about-us{
+    background:rgb(31, 82, 121);
+    height: 100vh;
+    padding: 10px 10%;
+    box-shadow: 0px 0px 40px 0px rgb(31, 82, 121);
+    vertical-align: middle;
+}
+.about-us p{
+    padding: 20px 0px 0px 15px;
+    margin-top:20px; 
+    font-weight: bolder;
+    color: white;
+}
+.about-us h1{
+    text-align: left;
+    font-weight: 1000;
+    color: white;
+    padding: 30px 0px 10px 0px;
+    margin: 0px;
+    font-size: 3em;
+}
+.feature{
+    padding: 20px 10px;
+    padding-right: 0px;
+}
+.feature-single{
+    height: 20%;
+}
+.feature-image{
+    text-align: center;
+    padding: 10px;
+    padding-right: 0px;
+}
+.feature-image img{
+    width: 120px;
+    height: auto;
+    text-align: center;
+}
+input, label{
+    display: block;
+}
+label{
+    color: #fff;
+}
+input, select, option,textarea{
+    height: 10%;
+    width: 100%;
+    padding: 5px;
+}
+
+.service-choice, .client-details, .other-details{
+    padding: 50px;
+    background: rgb(31, 82, 121);
+}
+.help-now{
+    text-align: center;
+}
+.help-now button{
+    padding: 10px 30px; 
+    border: 0px;
+    background: white;
+    color: rgb(31, 82, 121);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.service-section{
+    padding: 30px 10%;
+    background: url("img/s5.png") #ccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+.service-section center{
+    padding:4vh 0px 0px 0px;
+}
+.service-heading h2{
+    font-weight: 1000;
+    color: rgb(31, 82, 121);
+    font-size: 3em;
+}
+.service-details p{
+    font-weight: bolder;
+    letter-spacing:0px;
+    font-size: 1.13em;
+    color: rgb(77, 76, 76);
+}
+.service-all{
+    padding: 0px 10px;
+}
+.service-single{
+    text-align: center;
+    margin: 0px;
+    padding: 5px 10px;
+}
+.service-single img{
+    width: 100px;
+    height: auto;
+}
+.caption a{
+    color: rgb(31, 82, 121);
+    font-weight: 1000;
+    font-size: 1.30em;
+}
+.service-single p{
+    font-weight: bolder;
+    color: rgb(77, 76, 76);
+}
+.view-all-services{
+    padding: 5%;
+    background: rgb(31, 82, 121);
+}
+.view-all-services button{
+    color: rgb(31, 82, 121);
+    background: white;
+}
+.what-we{
+    height: 760px;
+    padding: 10px 10%;
+    background: url("img/head3.jpg") no-repeat;
+    background-size: 100%;
+    
+}
+.what-we{
+    padding: 20px 10%;
+}
+.what-we h2{
+    color: rgb(31, 82, 121);
+    font-weight: 1000;
+    font-size: 3em;
+}
+.what-we-single{
+    display: inline;
+    text-align: center;
+    padding: 20px;
+}
+.what-we-content:hover{
+    box-shadow: 0px 10px 40px 5px rgb(31, 82, 121);
+}
+.what-we-content{
+    background: rgb(31, 82, 121);
+    padding: 20px;
+    z-index: 23;
+}
+.what-we-single h4{
+    color: white;
+    font-weight: 1000;
+    font-size: 1.53em;
+}
+.what-we-single p{
+    color: white;
+    font-weight: bolder;
+}
+.what-we-single img{
+    width: 80px;
+}
+.get-in-touch{
+    padding: 5% 10%;
+    background:rgb(31, 82, 121); 
+}
+.get-in-touch h2{
+    color: white;
+    font-weight: 1000;
+    display: inline;
+}
+.get-in-touch button{
+    background: white;
+    color: rgb(31, 82, 121);
+    display: inline;
+    float: right;
+}
+.from-our-blog{
+    height: 130vh;
+    background: url("img/b8.jpg");
+    background-size: 100%;
+    padding: 20px 10%;
+}
+.from-our-blog h2{
+    color: rgb(31, 82, 121); 
+    font-weight: 1000;
+    font-size: 3em;
+}
+.from-our-blog p{
+    padding: 10px 0px;
+    color: rgb(77, 76, 76);
+    font-weight: bolder;
+}
+
+.blog-image{
+    padding-right: 0px;
+    margin-right: 0px;
+    height: 100%;
+}
+.blog-image img{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-align: center;
+}
+.blog-all{
+    padding: 4% 0px;
+}
+.blog-single{
+    padding: 0px;
+    margin-top: 20px;
+}
+.blog-content{
+    background: white;
+    height: 100%;
+    padding: 4px;
+    padding-left: 5px;
+}
+.blog-content p{
+    font-weight: normal;
+    font-size: 1em;
+    color:rgb(77, 76, 76);
+}
+.blog-content h4{
+    color: rgb(31, 82, 121); 
+    font-weight: 1000;
+}
+.blog-all span{
+    padding: 0px 5px;
+    margin: 0px;
+    font-weight: bold;
+    color: #ccc;
+}
+.blog-all span i{
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: bold;
+    color: #ccc;
+}
+.newsletter{
+    text-align: center;
+    padding: 20px10px;
+}
+.newsletter h3{
+    color: rgb(31, 82, 121);
+    font-weight: 700;
+}
+.newsletter input{
+    width: 50%;
+    display: inline;
+    padding: 10px;
+    color: rgb(31, 82, 121);
+    font-weight: bold;
+    margin-right: 0px;
+}
+.newsletter button{
+    margin-left: 0px; 
+}
+.footer-widgets{
+    height: 100vh;
+    padding: 40px 10%;
+    background: rgb(31, 82, 121);
+}
+.footer-widgets h2{
+    color: white;
+    font-weight: 1000;
+    font-size: 3em;
+}
+.footer-widgets p{
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.connect-icons{
+    text-align: center;
+    padding: 10px 0px;
+}
+.connect-icons span a i{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 2em;
+}
+.connect-icons > span > a :hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    background: white;
+    color: rgb(31, 82, 121);
+    font-size: 2em;
+}
+.connect h3{
+    padding: 0px 20px;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.5em;
+}
+.address{
+    padding: 10px;
+    text-align: center;
+}
+.callus , .mailus {
+    padding: 10px 10%;
+    color: white;
+    font-weight: bold;
+}
+.mailus a{
+    color: white;
+}
+.mailus h4, .callus h4{
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    background: rgb(31, 82, 121);
+    box-shadow: 0px 0px 40px 10px #aaa;
+}
+.footer p{
+    padding: 50px;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 1000;
+}
+.footer span{
+    color: #bbb;
+}
+#map,#mapnew{
+   box-shadow: 0px 0px 40px 10px  rgb(31, 82, 121);
+}
